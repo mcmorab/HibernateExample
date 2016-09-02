@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="Empleados" table="EMPLEADOS">
+		<id name="codigo" type="integer" column="codigo">
+			<generator class="increment" />
+		</id>
+		<property column="nombre" name="nombre" />
+		<property column="sexo" name="sexo" /> 
+		<property column="cargo" name="cargo" />
+		<property column="departamento" name="departamento" />
+		<property column="ciudad" name="ciudad" />
+		<property column="zona" name="zona" />
+		<property column="ingreso" name="ingreso" />
+		
+		<many-to-one name="cargo" class="Cargos" >      
+			<column name="cargo"/>    
+		</many-to-one>
+		
+		<!-- other properties mapping -->
+	</class>
+</hibernate-mapping>

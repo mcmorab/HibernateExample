@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="com.ibm.cio.data.Cargos" table="CARGOS">
+		<id name="id" type="integer" column="id">
+			<generator class="increment" />
+		</id>
+		<property column="cargo" name="cargo" />
+		<property column="sueldo" name="sueldo" />
+		<!-- other properties mapping -->
+	</class>
+</hibernate-mapping>
