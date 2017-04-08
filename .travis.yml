@@ -3,8 +3,6 @@ language: java
 matrix:
   include:
     - jdk: oraclejdk7
-      env: WLP_VERSION=8.5.5_07
     - jdk: oraclejdk8
-      env: WLP_VERSION=8.5.5_08
 script: 
   - travis_wait mvn install
