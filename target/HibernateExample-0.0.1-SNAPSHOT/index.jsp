@@ -45,5 +45,6 @@
 <br> <br>
 <input type="submit" value="Save Data :D">
 </form>
+<a href="/Consulta.do">Consultar Empleados</a>
 </body>
 </html>
