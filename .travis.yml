@@ -2,7 +2,5 @@ sudo: false
 language: java
 matrix:
   include:
-    - jdk: oraclejdk7
     - jdk: oraclejdk8
 script: 
-  - travis_wait mvn install
