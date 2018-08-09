@@ -1,2 +1,2 @@
 # HibernateExample
-testing slack integration
+testing slack integration :heart: C
